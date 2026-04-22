@@ -9,7 +9,6 @@ public class ToolShop implements Serializable {
     private String name = "Master Tool (Grad & Green Garden)";
     private List<Product> inventory = new ArrayList<>();
 
-    // МЕТОД ЛОГУВАННЯ
     public static void logAction(String className, String message, String type) {
         Properties props = new Properties();
         try (InputStream input = new FileInputStream("lab4.properties")) {
@@ -31,7 +30,6 @@ public class ToolShop implements Serializable {
         }
     }
 
-    // ЗБЕРЕЖЕННЯ СИСТЕМНОЇ ІНФОРМАЦІЇ
     public static void saveSystemInfo() {
         try (FileWriter fw = new FileWriter("system_info.txt", true);
              PrintWriter out = new PrintWriter(fw)) {
@@ -43,7 +41,6 @@ public class ToolShop implements Serializable {
         }
     }
 
-    // МЕТОД ЛОКАЛІЗОВАНОЇ ДОПОМОГИ
     private static void showLocalizedHelp() {
         try {
             ResourceBundle bundle = ResourceBundle.getBundle("i18n.Bundle");
@@ -64,13 +61,12 @@ public class ToolShop implements Serializable {
         System.out.println("--- Робота з матрицею (" + n + "x" + n + ") ---");
         
         try (Scanner sc = new Scanner(inputFile)) {
-            // 1. Заповнення матриці
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++) {
                     if (sc.hasNextInt()) {
                         matrix[i][j] = sc.nextInt();
                     } else {
-                        matrix[i][j] = 0; // Заповнення нулями, якщо чисел бракує
+                        matrix[i][j] = 0;
                     }
                 }
             }
@@ -78,7 +74,6 @@ public class ToolShop implements Serializable {
             System.out.println("Початкова матриця:");
             printMatrix(matrix);
 
-            // 2. Обчислення добутків елементів у стовпчиках
             long[] products = new long[n];
             for (int j = 0; j < n; j++) {
                 long prod = 1;
@@ -88,7 +83,6 @@ public class ToolShop implements Serializable {
                 products[j] = prod;
             }
 
-            // 3. Пошук індексів стовпців з мін та макс добутком
             int minIdx = 0;
             int maxIdx = 0;
             for (int i = 1; i < n; i++) {
@@ -99,7 +93,6 @@ public class ToolShop implements Serializable {
             System.out.println("Добутки стовпців: " + Arrays.toString(products));
             System.out.println("Міняємо місцями стовпець " + minIdx + " та " + maxIdx);
 
-            // 4. Перестановка стовпчиків
             for (int i = 0; i < n; i++) {
                 int temp = matrix[i][minIdx];
                 matrix[i][minIdx] = matrix[i][maxIdx];
@@ -117,7 +110,6 @@ public class ToolShop implements Serializable {
         }
     }
 
-    // Допоміжний метод для гарного виводу матриці
     private static void printMatrix(int[][] m) {
         for (int[] row : m) {
             for (int val : row) {
@@ -139,7 +131,7 @@ public class ToolShop implements Serializable {
 
         switch (args[0]) {
             case "matrix":
-                processMatrixTask(3); // Можеш змінити 3 на будь-яке інше n
+                processMatrixTask(3);
                 break;
             case "help":
                 showLocalizedHelp();
