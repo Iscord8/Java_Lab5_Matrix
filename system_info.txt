@@ -1,0 +1,32 @@
+Запуск: Wed Apr 15 15:02:23 EEST 2026 | Користувач: Olexa
+Запуск: Wed Apr 15 15:06:16 EEST 2026 | Користувач: Olexa
+Запуск: Wed Apr 15 15:06:44 EEST 2026 | Користувач: Olexa
+Giriş: Wed Apr 15 15:18:08 EEST 2026 İstifadəçi: Olexa
+Запуск: Wed Apr 15 15:25:51 EEST 2026 Користувач: Olexa
+Запуск: Wed Apr 15 15:27:36 EEST 2026 Користувач: Olexa
+Запуск: Wed Apr 15 15:31:22 EEST 2026 Користувач: Olexa
+Запуск: Wed Apr 15 15:34:47 EEST 2026 Користувач: Olexa
+Запуск: Wed Apr 15 15:35:59 EEST 2026 Користувач: Olexa
+Запуск: Wed Apr 15 15:42:15 EEST 2026 Користувач: Olexa
+--- Новий запуск програми ---
+OS: Windows 10 (amd64)
+Java Version: 26
+Java Vendor: Oracle Corporation
+User: Olexa
+Time: Wed Apr 15 16:11:45 EEST 2026
+-----------------------------
+Wed Apr 15 16:40:22 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 16:42:03 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 16:44:33 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 16:45:07 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 16:47:49 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 17:00:53 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 17:04:07 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 17:05:30 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 17:06:38 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 17:09:17 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 17:10:50 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 17:13:31 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 15 17:26:41 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 22 16:23:03 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
+Wed Apr 22 16:31:38 EEST 2026 | OS: Windows 10 | Java: 26 | User: Olexa
